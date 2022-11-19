@@ -27,8 +27,9 @@ docker run -e "APPLICATIONINSIGHTS_CONNECTION_STRING=InstrumentationKey=a0326010
 
 ## Push docker
 
+```
 docker image push crpoctelefonica.azurecr.io/ms-impressao:latest
-
+```
 
 `To push to ACR, login on your Docker Registry <crpoctelefonica>`
 
