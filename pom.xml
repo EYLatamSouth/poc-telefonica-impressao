@@ -36,6 +36,14 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <!-- Vault -->
+      <dependency>
+        <groupId>com.azure.spring</groupId>
+        <artifactId>spring-cloud-azure-dependencies</artifactId>
+        <version>${version.spring.cloud.azure}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -119,7 +127,11 @@
       <groupId>org.apache.camel.springboot</groupId>
       <artifactId>camel-stream-starter</artifactId>
     </dependency>
-
+    <!-- Vault -->
+    <dependency>
+      <groupId>com.azure.spring</groupId>
+      <artifactId>spring-cloud-azure-starter-keyvault-secrets</artifactId>
+    </dependency>
     <!-- Test -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
