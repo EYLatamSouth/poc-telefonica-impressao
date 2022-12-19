@@ -8,6 +8,12 @@ POC micro serviço de impressao para a Telefonica
 mvn clean compile package
 ```
 
+or
+
+```
+./gradlew bootJar
+```
+
 
 ## Build docker
 
